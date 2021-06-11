@@ -1,0 +1,28 @@
+#searchbox {
+    margin: 0 auto;
+}
+
+#google-search-box {
+    width:60%;
+    position:absolute;
+    top:40%;
+    margin:0 auto;
+}
+
+#head{
+    position: absolute;
+    right: 10px;
+}
+
+input{
+    border-radius: 5%;
+    border-color: grey;
+}
+
+button{
+    border: none;
+}
+
+button:hover{
+    border: black solid 1px;
+}

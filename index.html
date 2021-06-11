@@ -3,13 +3,21 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel='stylesheet' href="styles.css">
     </head>
     <body>
-        <form action='https://www.google.com/'>
-            <label for='searchbox'>Google</label>
-            <input type="text" id='searchbox'>
-        </form>
-        <button type="button">Google Search</btn>
-        <button type='button'>I'm feeling lucky</button>
+        <nav id="head">
+            <ul>Gmail</ul>
+            <ul>Images</ul>
+        </nav>
+        
+        <div id='google-search-box'>
+            <form action='https://www.google.com/'>
+                <img alt='Google logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'><br>
+                <input type="text" id='searchbox'>
+            </form>
+            <button type="button">Google Search</btn>
+            <button type='button'>I'm feeling lucky</button>
+        </div>
     </body>
 </html>
