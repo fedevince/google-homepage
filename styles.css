@@ -17,18 +17,30 @@ a:hover {
     margin: 0 auto;
 }
 
-#google-search-box {
+#parent-search-box {
     position: absolute;
-    display: block;
+    display: flex;
+    justify-content: center;
     top:40%;
     margin:0 auto;
-    width: 50%;
+    width: 100%;
     padding: 40px;
 }
 
+#buttons-search-box {
+    width: 25%;
+    display: flex;
+}
+
+header{
+    width: 10%;
+    position: absolute;
+    right:0px;
+}
+
 #head{
-    position: fixed;
-    right: 10px;
+    display:flex;
+    justify-content: space-around;
 }
 
 input{
@@ -46,13 +58,19 @@ button:hover{
 }
 
 footer {
-    position: fixed;
-    bottom: 0px;
     font-size: 15px;
-    color: rgba(0,0,0,0.54);
+    color: #0000008a;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 
 #foot {
     background-color: #f2f2f2;
+    display:flex;
+    position:fixed;
+    bottom:0px;
+    width: 100%;
 }

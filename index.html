@@ -3,21 +3,27 @@
 <html>
     <head>
         <title>Google</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' href="styles.css">
     </head>
     <body>
-        <nav id="head">
-            <a href=''>Gmail</a>
-            <a href=''>Images</a>
-        </nav>
+        <header>
+            <nav id="head">
+                <a href=''>Gmail</a>
+                <a href=''>Images</a>
+            </nav>
+        </header>
         
-        <div id='google-search-box'>
+        <div id='parent-search-box'>
             <form action='https://www.google.com/'>
                 <img alt='Google logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'><br>
                 <input type="text" id='searchbox'>
             </form>
-            <button type="button">Google Search</btn>
-            <button type='button'>I'm feeling lucky</button>
+            <div id='buttons-search-box'>
+                <button type="button">Google Search</button>
+                <button type='button'>I'm feeling lucky</button>
+            </div>
         </div>
 
         <div id='foot'>
