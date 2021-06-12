@@ -8,32 +8,42 @@
         <link rel='stylesheet' href="styles.css">
     </head>
     <body>
-        <header>
+        <header class="container" style="justify-content: flex-end;">
             <nav id="head">
                 <a href=''>Gmail</a>
                 <a href=''>Images</a>
             </nav>
         </header>
         
-        <div id='parent-search-box'>
-            <form action='https://www.google.com/'>
-                <img alt='Google logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'><br>
-                <input type="text" id='searchbox'>
-            </form>
-            <div id='buttons-search-box'>
-                <button type="button">Google Search</button>
-                <button type='button'>I'm feeling lucky</button>
+        <div class='container' id='parent-search-box'>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <div>
+                    <form action='https://www.google.com/'>
+                        <img alt='Google logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'><br>
+                        <input type="text" id='searchbox'>
+                    </form>
+                </div>
+                <br>
+                <div id='buttons-search-box'>
+                    <button type="button">Google Search</button>
+                    <button type='button'>I'm feeling lucky</button>
+                </div>
             </div>
         </div>
 
-        <div id='foot'>
+        <div class="container" id='foot' style="align-items: space-between;">
             <footer>
-                <a href=''>About</a>
-                <a href=''>Advertising</a>
-                <a href=''>How Search works</a>
-                <a href=''>Privacy</a>
-                <a href=''>Terms</a>
-                <a href=''>Settings</a>
+                <div>
+                    <div><a href=''>About</a></div>
+                    <div><a href=''>Advertising</a></div>
+                    <div><a href=''>Business</a></div>
+                    <div><a href=''>How Search works</a></div>
+                </div>
+                <div>
+                    <div><a href=''>Privacy</a></div>
+                    <div><a href=''>Terms</a></div>
+                    <div><a href=''>Settings</a></div>
+                </div>
             </footer>
         </div>
     </body>
