@@ -5,6 +5,7 @@
         <title>Google</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link rel='stylesheet' href="styles.css">
     </head>
     <body>
@@ -12,6 +13,12 @@
             <nav id="head">
                 <a href=''>Gmail</a>
                 <a href=''>Images</a>
+                <a href=''><span class="material-icons-outlined">apps</span></a>
+                <a href=''>
+                    <span class="material-icons-outlined">
+                        account_circle
+                        </span>
+                </a>
             </nav>
         </header>
         
@@ -32,13 +39,17 @@
             </div>
         </main>
 
-        <div class="container" id='foot' style="align-items: space-between;">
-            <footer>
+        
+        <div class="container" id='foot' style="display: flex; flex-wrap: wrap;">
+            <div class='country-banner' style="clear: both;">
+                Country
+            </div>    
+            <footer style="padding: 10px 20px;">
                 <div>
                     <div><a href=''>About</a></div>
                     <div><a href=''>Advertising</a></div>
                     <div><a href=''>Business</a></div>
-                    <div><a href=''>How Search works</a></div>
+                    <div><a href='' style="white-space: nowrap;">How Search works</a></div>
                 </div>
                 <div>
                     <div><a href=''>Privacy</a></div>
